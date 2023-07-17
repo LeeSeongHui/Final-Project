@@ -204,7 +204,7 @@
 
 ## &nbsp;&nbsp;2-2. 클래스 승인(관리자)
 
-<img src="https://github.com/LeeSeongHui/Final-Project/blob/main/src/main/resources/static/portfolio/2-2. 클래스 승인.gif?raw=true" width="100%"/><br/><br/>
+<img src="https://github.com/LeeSeongHui/Final-Project/blob/main/src/main/resources/static/portfolio/2-2. 클래스 승인(관리자).gif?raw=true" width="100%"/><br/><br/>
 - 등록된 관리자 정보로 로그인, 아이디와 비밀번호 정보가 일치할 경우 관리자만 접근할 수 있는 서비스 페이지로 이동
 - 전체 클래스 관리 목록에서 신규 클래스 등록 정보를 확인 후 승인여부 값 업데이트 
 <br/>
