@@ -176,12 +176,14 @@
 - 입력한 아이디와 비밀번호, 연락처와 같은 개인정보를 DB에 insert하여 회원가입 기능 구현
 - MemberController로 DB에 저장
 - 중복된 아이디, 탈퇴한 아이디에 대해서는 사용불가 알림이 뜨도록 유효성 검사 추가
+<br/>
   
 ## &nbsp;&nbsp;1-2. 아이디 찾기
 
 <img src="https://github.com/LeeSeongHui/Final-Project/blob/main/src/main/resources/static/portfolio/1-2. 아이디 찾기.gif?raw=true" width="100%"/><br/><br/>
 - member 테이블에 저장되어 있는 개인정보와 모두 일치하는 id를 찾아서 조회
 - 아이디 찾기로 아이디를 조회에 성공했을 경우에만 비밀번호 재설정 버튼 활성화
+<br/>
  
 ## &nbsp;&nbsp;1-3. 비밀번호 변경
 
@@ -211,8 +213,7 @@
 
 <img src="https://github.com/LeeSeongHui/Final-Project/blob/main/src/main/resources/static/portfolio/2-3. 클래스 상세정보 조회.gif?raw=true" width="100%"/><br/><br/>
 - 등록한 클래스의 상세정보를 조회할 수 있는 페이지 (리뷰추천, 문의하기, 신청하기 기능으로 구성)
-- 달력에서 참여가능한 날짜를 확인한 후 시간과 신청할 인원수를 선택
-     
+- 달력에서 참여가능한 날짜를 확인한 후 시간과 신청할 인원수를 선택 
 <br/>
 
 # 3. <a name="fun3">클래스 관리(판매자)
@@ -221,15 +222,14 @@
 <img src="https://github.com/LeeSeongHui/Final-Project/blob/main/src/main/resources/static/portfolio/3-1. 클래스 조회.gif?raw=true" width="100%"/><br/><br/>
 - 등록한 클래스를 관리, 수정, 삭제, 조회, 비활성화/활성화 할 수 있는 페이지
 - 비활성화 시 클래스 조회, 관리, 수정, 삭제가 불가능
-  
 <br/>
 
 ## &nbsp;&nbsp;3-2. 문의내역 조회
+
 <img src="https://github.com/LeeSeongHui/Final-Project/blob/main/src/main/resources/static/portfolio/3-2. 문의내역 조회.gif?raw=true" width="100%"/><br/><br/>
 - 문의 내역을 조회하는 페이지
 - 문의 내역 답변을 작성,수정할 수 있는 페이지
 - 답변완료/답변대기 상태에 따른 조회 기능
-
 <br/>
 
 # 4. <a name="fun4">일정 및 신청관리(판매자)
@@ -242,18 +242,19 @@
 <br/>
 
 ## &nbsp;&nbsp;4-2. 신청관리
+
 <img src="https://github.com/LeeSeongHui/Final-Project/blob/main/src/main/resources/static/portfolio/4-2. 신청관리.gif?raw=true" width="100%"/><br/><br/>
 - 등록한 일정별 신청인원 조회
 - 신청자 정보 확인, 클래스 종료 시 신청 처리상태 결제완료에서 참여완료로 업데이트(승인)
 <br/>
 
 # 5. <a name="fun5">클래스 검색/조회
-
 ## &nbsp;&nbsp;5-1. 클래스검색(지역, 카테고리, 날짜, 난이도, 가격)
 
 <img src="https://github.com/LeeSeongHui/Final-Project/blob/main/src/main/resources/static/portfolio/5-1. 클래스검색(지역, 카테고리, 날짜, 난이도, 가격).gif?raw=true" width="100%"/><br/><br/>
 - 검색 옵션 ( 지역 분류, 클래스 분류, 날짜, 난이도, 가격 ) 선택 후, 해당 조건에 맞는 클래스 목록 검색
 - Pagination을 이용하여 조건으로 검색된 클래스의 목록을 조회
+<br/>
   
 ## &nbsp;&nbsp;5-2. 클래스검색(지도)
 
@@ -262,13 +263,13 @@
 <br/>
 
 # 6. <a name="fun6">클래스 신청 및 결제
-
 ## &nbsp;&nbsp;6-1. 클래스 신청(장바구니)
 
 <img src="https://github.com/LeeSeongHui/Final-Project/blob/main/src/main/resources/static/portfolio/6-1. 클래스 신청(장바구니).gif?raw=true" width="100%"/><br/><br/>
 - 주문한 클래스를 장바구니에 저장했을 때 장바구니 페이지에서 주문한 목록을 출력
 - checkbox로 체크되어있는 목록은 신청인원과 자동으로 계산이 되어 결제 금액에 총 금액이 출력
 - 선택된 checkbox 값을 통하여 BasketController를 통하여 삭제 기능 구현을 구현
+<br/>
 
 ## &nbsp;&nbsp;6-2. 클래스 신청(결제)
 
@@ -277,12 +278,12 @@
 <br/>
 
 # 7. <a name="fun7">신청/리뷰내역 조회
-
 ## &nbsp;&nbsp;7-1. 신청 내역 조회(상세보기)
 
 <img src="https://github.com/LeeSeongHui/Final-Project/blob/main/src/main/resources/static/portfolio/7-1. 신청 내역 조회(상세보기).gif?raw=true" width="100%"/><br/><br/>
 - Pagination을 이용하여 내가 신청한 클래스를 결제완료, 결제취소, 참여완료에 따라 조회
 - 결제상태에 따라 상세보기시 나오는 결제내역 변경(신청취소시 취소정보 표시)
+<br/>
 
 ## &nbsp;&nbsp;7-2. 리뷰 작성
 
@@ -290,6 +291,7 @@
 - 참여완료 상태일때만 리뷰등록 버튼 활성화
 - 평점 1~5 입력 (radio 타입 사용), 내용 입력(Quill editor 사용), 이미지 첨부(개수 제한) 후 DB에 저장
 - Pagination을 이용하여 내가 작성한 리뷰 내역 전체,날짜순 조회 
+<br/>
 
 ## &nbsp;&nbsp;7-3. 리뷰 추천
 
